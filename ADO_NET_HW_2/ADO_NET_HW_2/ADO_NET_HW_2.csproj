@@ -109,6 +109,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="DB\Sales.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
