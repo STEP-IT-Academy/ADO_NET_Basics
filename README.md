@@ -5,7 +5,7 @@
 3. Saving changes to the database or canceling user actions.
 4. Additionally: before saving, a window should appear showing the changed rows and asking for confirmation of actions.
 #### Use offline mode ADO.NET.
-#### To use connected mode ADO.Net. To create a connection string, use the SqlConnectionStringBuilder object.
+#### To use connected mode ADO.NET. To create a connection string, use the SqlConnectionStringBuilder object.
 #### There are two ways to create commands for the adapter:
 1. create command objects in code;
 2. use the SqlCommandBuilder class.
