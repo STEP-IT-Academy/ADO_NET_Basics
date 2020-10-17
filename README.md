@@ -1,6 +1,7 @@
-#### Create a database consisting of the "Students" tables (fields: ID, Group Id, Last name, OOP score, WinForms score, and ADO score.Net) and "Groups" (fields: ID, group name, curator's last name). Fill in tables with data.
-#### Develop a WinForms application that performs the following functions:
-1. displaying information from the database in three tables: in the first one, display the student's last name and grades in subjects, in the second one, display groups and curators of these groups, and in the third one, display the names of students, groups, and the average score for the session. Use a single command to get data;
-2. adding information about the group;
-3. determining the number of students in a given group who received excellent and unsatisfactory grades (separately).
+#### Create an app for storing and editing users. You must store the following data about the user: username, password, address, phone number, admin attribute (logical variable).
+#### When adding a new user, make sure that the username with this name is available. To protect your password, use the getHashCode function on the string.
+#### The list of users is displayed in the ListBox.
 #### To use connected mode ADO.Net. To create a connection string, use the SqlConnectionStringBuilder object.
+#### When you double-click an entry containing a user, a second form opens for editing. Implement adding and deleting users.
+#### Adding users is implemented in a new window.
+#### Also implement the output of all registered users with administrator filtering.
